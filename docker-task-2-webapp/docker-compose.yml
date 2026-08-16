@@ -1,0 +1,6 @@
+services:
+  web:
+    image: docker-task2-web
+    ports:
+      - "80:80"
+    restart: always
