@@ -1,1 +1,8 @@
-
+version: '3.8'
+services:
+  web:
+    image: ajayrag/custom-nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - /var/opt/nginx:/usr/share/nginx/html
